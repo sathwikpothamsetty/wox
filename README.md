@@ -35,13 +35,13 @@ surakhasetuu is a **real-time emergency coordination platform** that connects:
 
 ## 🌟 The Core Innovation: Vehicle QR Health Passport
 
-This is the feature that makes GoldenHour unique and solves the identity problem at its root.
+This is the feature that makes surakstasetu unique and solves the identity problem at its root.
 
 ### How It Works — Step by Step
 
 ```mermaid
 graph TD
-    A[Citizen registers on GoldenHour] --> B[Enters: Name, Blood Group, Allergies,\nConditions, Medications, Emergency Contacts]
+    A[Citizen registers on surakstasetu] --> B[Enters: Name, Blood Group, Allergies,\nConditions, Medications, Emergency Contacts]
     B --> C[System generates a unique QR code\nlinked to their vehicle number]
     C --> D[User prints QR sticker — sticks it on\ndashboard, fuel cap, or windshield]
     D --> E{Every time they drive}
@@ -82,7 +82,7 @@ When a paramedic scans the QR at an accident scene, a public page opens instantl
 
 ### Phase 1: Before the Accident (Citizen Side)
 
-1. Citizen opens GoldenHour website/app
+1. Citizen opens surakstasetu website/app
 2. Registers once: blood group, allergies, conditions, medications
 3. Enters vehicle number → system generates unique Vehicle QR
 4. Prints sticker → sticks on dashboard
@@ -94,7 +94,7 @@ When a paramedic scans the QR at an accident scene, a public page opens instantl
 ### Phase 2: The Accident
 
 1. Accident occurs
-2. **Bystander Coordination** (optional feature): GoldenHour silently alerts trained first-aiders within 500m
+2. **Bystander Coordination** (optional feature): surakstasetu silently alerts trained first-aiders within 500m
    > *"Accident 400m from you. Patient unconscious. Ambulance ETA: 12 mins. Can you help?"*
 3. Someone calls 108 / triggers SOS
 4. Ambulance is dispatched
@@ -147,7 +147,7 @@ graph TD
     C --> F[🏆 Auto-routes to City Trauma Center]
 ```
 
-> The nearest hospital lost because it had no neurosurgeon. **GoldenHour picks smart, not just close.**
+> The nearest hospital lost because it had no neurosurgeon. **surakstasetu picks smart, not just close.**
 
 ---
 
@@ -300,7 +300,7 @@ A read-only heatmap dashboard for health officials:
 
 > *"Every year, thousands of people die in road accidents — not because hospitals were too far, but because the system was too slow.*
 > 
-> *With GoldenHour:*
+> *With surakstasetu:*
 > *The QR on your dashboard already knows your blood group, your allergy to aspirin, and that your wife is your emergency contact.*
 > *Before the ambulance even arrives, AI has selected the best hospital, not just the nearest one.*
 > *By the time you reach the ER, the ward is prepared, the surgeon is ready, and your family is already on their way — because they got a live tracking link the moment you were found.*
